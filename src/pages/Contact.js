@@ -3,10 +3,10 @@ import Navigation from "../components/Navigation";
 import ButtonsBottom from "../components/ButtonsBottom";
 import ContactForm from "../components/ContactForm";
 import SocialNetwork from "../components/SocialNetwork";
-import Logo from "../components/Logo";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Mouse from "../components/Mouse";
 import { motion } from "framer-motion";
+import MindMap from "../components/MindMap";
 
 const Contact = () => {
   const pageTransition = {
@@ -36,21 +36,20 @@ const Contact = () => {
         variants={pageTransition}
         transition={transition}
       >
+       
         <Navigation />
-        <Logo />
-        <ContactForm />
+        <MindMap/>
         <div className="contact-infos">
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>12 rue du Code</p>
-              <p>33000 Bordeaux</p>
+              <p>Bordeaux</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
               <h4>téléphone</h4>
-              <CopyToClipboard text="0642844284" className="hover">
+              <CopyToClipboard text="0785717486" className="hover">
                 <p
                   style={{cursor: 'pointer'}}
                   className="clipboard"
@@ -58,7 +57,7 @@ const Contact = () => {
                     alert("Téléphone copié !");
                   }}
                 >
-                  06 42 84 42 84
+                  07 85 71 74 86
                 </p>
               </CopyToClipboard>
             </div>
@@ -66,7 +65,7 @@ const Contact = () => {
           <div className="email">
             <div className="content">
               <h4>email</h4>
-              <CopyToClipboard text="fsagency@gmail.com" className="hover">
+              <CopyToClipboard text="rbeloncle@gmail.com" className="hover">
                 <p
                   style={{cursor: 'pointer'}}
                   className="clipboard"
@@ -74,14 +73,14 @@ const Contact = () => {
                     alert("Email copié !");
                   }}
                 >
-                  fsagency@gmail.com
+                  rbeloncle@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>fromScratch - 2020</p>
+            <p>Rodolphe - 2021</p>
           </div>
         </div>
         <ButtonsBottom left={"/projet-4"} />

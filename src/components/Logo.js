@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <span className="logo">FS</span>
+    <img  src="./assets/img/myProfil.png" className="logo"/>
   );
 };
 

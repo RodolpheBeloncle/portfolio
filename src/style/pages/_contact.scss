@@ -176,17 +176,48 @@
       box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
     }
   }
+  //======MindMap ========================
+
+  .mindMap{
+      
+    @media screen and (max-width: 995px){
+        
+        width: 40em;
+        margin-left:10px;
+        
+    }
+
+    @media screen and (max-width: 965px){
+        
+      margin-left:10px;
+      
+    }
+
+    
+    @media screen and (max-width: 780px){
+        
+      display:none;
+      
+    }
+
+
+    
+
+  
+  }
+  
   .contact-infos {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin:5px;
     display: grid;
     grid-template-rows: repeat(4, 23%) 12%;
     height: 70%;
     width: 30%;
     max-width: 500px;
 
-    @media screen and (max-width: 740px){
+    @media screen and (max-width: 1500px){
       height: 200px;
       width: 100%;
       max-width: 100%;
@@ -197,6 +228,7 @@
         'd d d'
         'e e f';
     }
+
     @media screen and (max-width: 540px){
       grid-template-rows: repeat(3, 60px);
       grid-template-columns: repeat(6, 1fr);
@@ -205,13 +237,22 @@
         'd d d d d d'
         'e e e e f f';
     }
+
     @media screen and (max-height: 500px){
       display: none;
     }
-    @media screen and (min-width: 1200px){
-      width: 35%;
-      height: 83%;
+    // @media screen and (min-width: 1200px){
+    //   width: 35%;
+    //   height: 83%;
+    // }
+
+    
+    @media screen and (max-width: 780px){
+        
+      
+      
     }
+
 
     h4 {
       color: $color-4;

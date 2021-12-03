@@ -54,15 +54,17 @@
     }
   }
   .logo {
-    top: 10px;
-    left: 50%;
+    bottom: 18em;
+    left: 20%;
     transform: translateX(-50%);
     transform: scale(0);
     animation: logoProject 2s ease forwards;
+    box-shadow: 9px 9px 38px 0px rgb(44, 141, 183);
   
     @keyframes logoProject {
       to {
-        transform: scale(1);
+        transform: scale(0.12);
+        border-radius:50%;
       }
     }
   }
@@ -98,7 +100,7 @@
         font-size: 3rem;
         margin-bottom: 12px;
         font-family: $font-2;
-        color: $color-2;
+        color: $black;
         transform: scaleX(0);
         animation: transformTitle 1.5s ease forwards;
         transform-origin: 150%;
