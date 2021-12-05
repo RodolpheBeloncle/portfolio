@@ -17,7 +17,7 @@ export const projectsData = [
     infos:
       "Application web réalisée autour de 'l'api openfoodfact.Faciliter l'accès des consomateurs qui ont des allergies particulières.",
     img: "./assets/img/greenbeens.png",
-    link: "http://www.google.com",
+    link: "https://practical-bassi-61fc2c.netlify.app",
   },
   {
     id: 3,
