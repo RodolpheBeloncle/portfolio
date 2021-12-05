@@ -22,7 +22,7 @@ const Navigation = () => {
               <li>Mash-up</li>
             </NavLink>
             <NavLink to="/projet-4" activeClassName="nav-active" className="hover">
-              <li>Château des tours</li>
+              <li>React Api</li>
             </NavLink>
           </ul>
         </li>

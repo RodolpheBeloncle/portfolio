@@ -31,12 +31,12 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Château des Tours",
-    date: "mars 2020",
-    languages: ["HTML/CSS", "PHP"],
+    title: "React Api",
+    date: "Décembre 2021",
+    languages: ["HTML/CSS", "React & Tailwind"],
     infos:
-      "Site associatif pour un château viticole",
-    img: "./assets/img/projet-4.jpg",
+      "Quick App with Api Game with Context & Tailwind",
+    img: "./assets/img/GameApi.png",
     link: "http://www.google.com",
   },
 ];
